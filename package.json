@@ -1,0 +1,30 @@
+{
+  "name": "react-pug-loader",
+  "version": "1.0.0",
+  "author": "Tyler Cinnamon <tycinnamon@gmail.com>",
+  "description": "Pug to JSX loader for Webpack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skotchpine/react-pug-loader"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha -c"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "pug-filters": "^4.0.0",
+    "pug-lexer": "^5.0.0",
+    "pug-parser": "^6.0.0",
+    "pug-strip-comments": "^2.0.0",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
